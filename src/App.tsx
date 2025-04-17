@@ -1,16 +1,18 @@
 import './App.css'
 
-  function App() {
-    return (
-      <div className="app-container">
-        <div className="content-block">
-          <h1>Main Page</h1>
-          <p>
-            WELCOME!
-          </p>
-        </div>
+function App() {
+  return (
+    <div className="app-container">
+      <div className="content-block">
+        <h1>Vite + React</h1>
+        <p>
+          WELCOME!
+        </p>
+        <p>
+          Це простий текстовий блок, розташований по центру сторінки.
+        </p>
       </div>
-    )
-  }
-  
-  export default App
+    </div>
+  )
+}
+export default App
